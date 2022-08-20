@@ -11,3 +11,7 @@
 # Built Visual Studio Code Extensions
 *.vsix
 a.out
+workers/board.o
+workers/chess.o
+workers/pieces.o
+workers/play
