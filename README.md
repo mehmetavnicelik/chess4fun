@@ -1,3 +1,3 @@
 ### chess4fun
-- just a hobby. idk when can i complete or work on it next time.
+- just a hobby.
 - for now, just the board is ready. 
