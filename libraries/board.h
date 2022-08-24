@@ -2,13 +2,14 @@
 
 class Cell{
     public:
-        inline int get_row(){return row;}
+        inline int get_row(){return this->row;}
         inline void set_row(int row){this->row=row;}
-        inline int get_col(){return col;}
+        inline int get_col(){return this->col;}
         inline void set_col(int col){this->col=col;}
-        inline enumType get_type(){return type;}
+        inline enumType get_type(){return this->type;}
         inline char get_char(){return char(this->type);}
         inline void set_type(enumType type){this->type=type;}
+        bool is_empty();
     private:
         int row;
         int col;
